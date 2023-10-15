@@ -19,12 +19,17 @@
 }
 
 .friend-list-status {
-  background: red;
+  background-color: red;
   border-radius: 50%;
   width: 10px;
   height: 10px;
 
-  &.green {
+  /* doesn work for safari */
+  /* &.green {
     background-color: green;
-  }
+  } */
+}
+
+.friend-list-status.green {
+  background-color: green;
 }
